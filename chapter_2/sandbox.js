@@ -41,23 +41,44 @@
 //js is called a loosley typed language as opposed to ruby or py that is strongly typed
 
 //strings go in quotes to display in console
-console.log('hello world');
+// console.log('hello world');
 
-//string concatenation
-let email = 'mario@mario.com';
-console.log(email);
+// //string concatenation
+// let email = 'mario@mario.com';
+// console.log(email);
 
-// string concatenation
-let firstName = 'Brandon';
-let lastName = 'Sanderson';
-let fullName = firstName + ' ' + lastName;
-console.log(fullName);
+// // string concatenation
+// let firstName = 'Brandon';
+// let lastName = 'Sanderson';
+// let fullName = firstName + ' ' + lastName;
+// console.log(fullName);
 
-// getting characters
-console.log(fullName[2]);
+// // getting characters
+// console.log(fullName[2]);
 
-// string length
-console.log(fullName.length);
+// // string length
+// console.log(fullName.length);
 
-// string methods
-console.log(fullName.toUpperCase());
+// // string methods
+// console.log(fullName.toUpperCase());
+// let result = fullName.toLowerCase();
+// console.log(result, fullName);
+
+// let index = email.indexOf('@');
+// console.log(index);
+
+// common string methods
+
+let email = 'mario@thenetninja.co.uk';
+
+// let result = email.lastIndexOf('n');
+
+// let result = email.slice(2,5);
+
+// let result = email.substr(4,10);
+
+// let result = email.replace('m', 'w');
+
+let result = email.replace('n', 'w');
+
+console.log(result);
