@@ -156,25 +156,36 @@
 //ARRAYS type: object
 //js is a zero based language
 
-let ninjas = ['shaun', 'ryu', 'chun-li'];
+// let ninjas = ['shaun', 'ryu', 'chun-li'];
 
-// ninjas[1] = 'ken';
-// console.log(ninjas[1]);
+// // ninjas[1] = 'ken';
+// // console.log(ninjas[1]);
 
-// let ages = [20,25,30,35];
-// console.log(ages[2]);
+// // let ages = [20,25,30,35];
+// // console.log(ages[2]);
 
-// let random = ['shaun', 'crystal', 30, 20];
-// console.log(random);
+// // let random = ['shaun', 'crystal', 30, 20];
+// // console.log(random);
 
-//console.log(ninjas.length);
+// //console.log(ninjas.length);
 
-// array methods
+// // array methods
 
-//let result = ninjas.join('-');
-//let result = ninjas.indexOf('chun-li');
-//let result = ninjas.concat(['ken', 'crystal']);
-let result = ninjas.push('ken');
-result = ninjas.pop();
+// //let result = ninjas.join('-');
+// //let result = ninjas.indexOf('chun-li');
+// //let result = ninjas.concat(['ken', 'crystal']);
+// let result = ninjas.push('ken');
+// result = ninjas.pop();
 
-console.log(ninjas);
+// console.log(ninjas);
+
+
+//NULL AND UNDEFINED
+//if we use this it will says NaN in console
+// let age;
+// console.log(age, age + 3, `the age is ${age}`);
+
+// by doing this the value will be set to null, if we desire to have a value with nothing in it
+//such as deleted feild on form or starting place
+// let age = null;
+// console.log(age, age + 3, `the age is ${age}`);
