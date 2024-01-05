@@ -69,16 +69,63 @@
 
 // common string methods
 
-let email = 'mario@thenetninja.co.uk';
+// let email = 'mario@thenetninja.co.uk';
 
-// let result = email.lastIndexOf('n');
+// // let result = email.lastIndexOf('n');
 
-// let result = email.slice(2,5);
+// // let result = email.slice(2,5);
 
-// let result = email.substr(4,10);
+// // let result = email.substr(4,10);
 
-// let result = email.replace('m', 'w');
+// // let result = email.replace('m', 'w');
 
-let result = email.replace('n', 'w');
+// let result = email.replace('n', 'w');
 
-console.log(result);
+// console.log(result);
+
+
+
+//MATH
+
+// let radius = 10;
+// const pi = 3.14;
+
+//console.log(radius, pi);
+
+// math operators +, -, *, /, **, %
+
+//console.log(10 / 2);
+//let result = radius % 3;
+//let result = pi * radius**2;
+
+// order of operation - B I D M A S
+
+//let result = 5 * (10-3)**2;
+
+//console.log(result);
+
+// let likes = 10;
+
+//likes = likes + 1;
+//likes++;
+
+//likes--;
+
+//likes += 10;
+//likes -= 5;
+//likes *= 2;
+//likes /= 2;
+
+// console.log(likes);
+
+//NaN - not a number
+// this happens when you do non-sense math operations such as 1 * 'dog'
+//to use both we concat like this:
+
+// let result = 'the blog has ' + likes + ' likes';
+// console.log(result);
+//this is an ok way to concat with just a few strings and numbers,
+//but if there becomes many of them it is better to use Template strings
+//This is Template Strings:
+
+
